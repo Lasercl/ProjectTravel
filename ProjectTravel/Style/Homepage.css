@@ -1,0 +1,203 @@
+﻿/*body .ticket {
+    margin: 0;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    /*position:relative;*/
+/**/    text-align: center;
+}
+
+    body h1 {
+        /*position:absolute;*/
+        text-align: left;
+        /*margin-left: 73px;*/
+        left: 50px;
+        position:inherit;
+        /*transform: translateX(-50%);*/
+    }
+    body p {
+        text-align: left;
+        /*margin-left: 73px;*/
+        position:inherit;
+        /*position:absolute;*/
+
+    }
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    /*header h1 {
+
+        margin: 0;
+        font-size: 24px;
+    }
+
+    header .subtitle {
+        display: block;
+        margin: 0;
+        color: #666;
+    }*/
+
+.hero {
+    position: relative;
+    height:300%;
+}
+
+
+.ticket {
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+/*    padding: 10px;
+*/    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: url('../Image/hongkong.jpg') center;
+    background-size: 100%;
+    height: 300px;
+    bottom:0;
+}
+.ticket2 {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 1); /* 2px is the spread radius */
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    border-radius: 15px;
+    right: 100px;
+    /*border: 1px solid black;*/
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    justify-content: center;
+    width: 1089px;
+    /* margin-left:100px;
+    margin-right:100px;*/
+    height: 40px;
+    background-color: white;
+    /*        list-style: none;
+*/
+}
+
+
+.ticket button {
+    background-color: transparent;
+    width: auto;
+    padding-right:10%;
+    padding-left:10%;
+    margin-left:auto;
+    margin-right:auto;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+   
+}
+.ticket button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan */
+}
+.borderticket {
+    
+}
+
+        .nav-buttons button:hover {
+            background-color: #ddd;
+        }
+
+.destinations {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    /*justify-content: center;*/ /* Pusatkan elemen-elemen secara horizontal */
+    align-items: center; /* Pusatkan elemen-elemen secara vertikal */
+    /*gap: 20px;*/ /* Jarak antara elemen-elemen */
+    /*padding-left: 1%;
+    padding-right:1%;*//* Padding untuk wadah */
+    background-color: #ffffff; /* Warna latar belakang untuk wadah */
+    border-radius: 10px; /* Sudut bulat untuk wadah */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/ /* Bayangan untuk wadah */
+    /*text-align: center;*/ /* Pusatkan teks di dalam elemen destinasi */
+    height:1000px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1089px;
+    margin-top:100px;
+    
+}
+
+.destination {
+    text-align: left;
+    justify-content:left;
+    display: flex;
+    margin-bottom:30px;
+}
+
+    .destination img {
+ 
+        height:220px;
+        border-radius: 8px;
+        width:367px;
+        margin-right:50px;
+        margin-left:0px;
+    }
+
+    .destination h2 {
+        font-size: 30px;
+        margin-bottom:0px;
+        margin-left: 10px;
+    }
+
+    .destination .reviews {
+        display: block;
+        font-size: 28px;
+        color: #666;
+        margin-top:5px;
+        margin-left:10px;
+    }
+    .buttonarrow{
+        margin-top:auto;
+        margin-left:200px;
+        /*margin-right:10px;*/
+        margin-bottom:auto;
+    }
+    .texthead{
+        width:1400px;
+        justify-content:center;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .buttonarrow button{
+        justify-content:center;
+        text-align:center;
+        background-color:black;
+        color:white;
+        border-radius:25px;
+        width:50px;
+        height:50px;
+
+    }
+.countryname {
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 200px;
+}
+      /*  .countryname h2 {
+            font-size:
+        }
+    .countryname {
+        
+    }*/
+@media (max-width: 768px) {
+    .destinations {
+        flex-direction: column;
+        align-items: center;
+    }
+}
